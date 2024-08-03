@@ -26,15 +26,6 @@ body {
     display: block;
 }
 
-.front-screen {
-    position: absolute;
-    top: 30px; /* Adjusted top position */
-    left: 65px; /* Adjusted left position */
-    width: 242px;
-    height: 468px;
-    overflow: hidden;
-}
-
 .front-phone-image {
     width: 100%;
     height: 100%;
