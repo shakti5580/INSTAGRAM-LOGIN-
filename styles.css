@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -52,6 +53,7 @@ button[type="submit"] {
     border: none;
     border-radius: 3px;
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .divider {
@@ -81,6 +83,7 @@ button[type="submit"] {
     border-radius: 3px;
     margin-top: 10px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .signup-container {
@@ -94,4 +97,29 @@ button[type="submit"] {
 .signup-container a {
     color: #0095f6;
     text-decoration: none;
+    font-weight: bold;
+}
+
+.get-the-app {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.get-the-app p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.app-buttons a {
+    display: inline-block;
+}
+
+.app-buttons img {
+    height: 40px;
 }
