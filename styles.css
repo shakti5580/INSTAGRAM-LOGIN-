@@ -1,21 +1,44 @@
 body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #fafafa;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
-.phone-screen img {
+.phone-screen {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.phone-image {
     max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.front-screen {
+    position: absolute;
+    top: 55px;
+    left: 45px;
+    width: 230px;
+    height: 420px;
+    overflow: hidden;
+}
+
+.front-phone-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .login-container {
@@ -23,7 +46,6 @@ body {
     border: 1px solid #dbdbdb;
     padding: 20px;
     width: 350px;
-    margin-left: 20px;
 }
 
 h1 {
