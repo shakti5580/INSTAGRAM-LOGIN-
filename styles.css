@@ -28,10 +28,10 @@ body {
 
 .front-screen {
     position: absolute;
-    top: 55px;
-    left: 45px;
-    width: 230px;
-    height: 420px;
+    top: 53px; /* Adjusted top position */
+    left: 99px; /* Adjusted left position */
+    width: 242px;
+    height: 468px;
     overflow: hidden;
 }
 
